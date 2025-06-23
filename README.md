@@ -48,6 +48,9 @@
   * git commit -m "Remove unnessary files from version contol"
   * git push origin <branch name> 
 
+- 특정 폴더만 복원 (baremetal 폴더 만 복원) 
+  * git checkout origin/main_r3 -- baremetal/
+    
 ## Markup 사용법
 
 ### 1. 제목
