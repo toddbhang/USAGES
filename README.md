@@ -41,7 +41,12 @@
   * git reset --hard HEAD~1 (커밋, add, 수정된 내용 모두 완전취소)
   * git reset 커밋해쉬 (이미 푸쉬한 커밋을 되돌림)
   * git log --oneline (커밋 내역) 
-- 
+
+- 버전관리 필요없는 파일을 서버에서 삭제하고 로컬에 그대로 두기
+  * .gitignore 팔일 설정하기
+  * git rm --cached <파일경로>  (Git에서 캐시 제거)
+  * git commit -m "Remove unnessary files from version contol"
+  * git push origin <branch name> 
 
 ## Markup 사용법
 
