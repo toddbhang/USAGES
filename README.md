@@ -40,7 +40,12 @@
   * git reset --mixed HEAD~1 (커밋,add 취소, 수정된 내용 그대로)
   * git reset --hard HEAD~1 (커밋, add, 수정된 내용 모두 완전취소)
   * git reset 커밋해쉬 (이미 푸쉬한 커밋을 되돌림)
-  * git log --oneline (커밋 내역) 
+  * git log --oneline (커밋 내역)
+ 
+- add 취소
+  * git reset (add 전체 취소)
+  * git reset 파일이름 (특정 파일 add 취소)
+  * commit 한것을 바로 reset 할 순 없고, git reset --soft HEAD~1 으로 커밋 취소를 한다음. git reset 으로 add 취소를 해야한다) 
 
 - 버전관리 필요없는 파일을 서버에서 삭제하고 로컬에 그대로 두기
   * .gitignore 팔일 설정하기
