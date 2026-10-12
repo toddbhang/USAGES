@@ -1,5 +1,24 @@
 # USAGES 
 
+## 프로젝트 별 작업흐름 
+
+- 새 작업 시작
+  * git switch main
+  * git pull --ff-only
+  * git switch -c feature/pio-test
+
+- 코드 수정 후 변경 내용 확인
+  * git status
+  * git diff
+
+-  필요한 파일만 선택해서 커밋
+   * git add host/pcie_pio.c docs/bar-map.md
+   * git commit -m "Add BAR memory read/write test"
+
+- GitHub에 업로드
+   * git push -u origin feature/pio-test
+
+
 ## GIT 사용법 
 
 - 로컬 폴더에서 Git 초기화
